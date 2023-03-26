@@ -1,0 +1,353 @@
+
+*{
+    margin: 0;
+}
+body{
+    background-image: url(image/kin.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+.logo{
+    width: 25%;
+    
+    
+}
+header{
+	width: 100%;
+	background: #000000;
+	height:80px;
+}
+
+a{
+    text-decoration:none;
+}
+.shapka{
+    width: 6%;
+	padding-left: 445px;
+	padding-top: 13px;
+    
+
+}
+
+.home{
+    color: #8C8C8C;
+    font-family:"Sawarabi Gothic";
+    position: relative;bottom: 50px;left: 550px;
+    font-size:25px;
+}
+nav{
+    display: flex;
+    justify-content : space-around;
+    margin-inline-end:60%;
+    
+    
+}
+
+.photo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;top: 600px;left: 800px;
+    width: 15%;
+
+}
+.ic{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;top: 545px;left: 800px;
+    width: 3%;
+}
+.trailer{
+    color: #532966;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;top: 505px;
+    font-size: 25px;
+
+}
+.buy{
+    color: #14FF00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;top: 550px;right: 15px;
+    font-size: 50px;
+    font-weight: 900;
+}
+.market{
+    width: 210%;
+    position: relative;top: 580px;left: 550px;
+    display : flex;
+    justify-content : space-around;
+    margin-inline-end:60%;
+    
+    
+    
+}
+.steam{
+    width: 210%;
+    position: relative;top: 572px;left: 550px;
+}
+.div1{
+    flex-wrap : wrap;
+
+    
+}
+.fon{
+    position: relative;top: 845px;
+    background-size: 100%;
+
+}
+.div{
+    position: relative;
+    width: 100%;
+    top: 770px;
+    height: 795px;
+    background-image: url(image/fon.png);
+    background-repeat: repeat;
+
+}
+.div2{
+    position: relative;
+    width: 100%;
+    bottom: 340px;
+    right: 15px;
+    height: 1950px;
+    background-image: url(image/fon.png);
+    background-repeat: repeat;
+    
+}
+.div3{
+    position: relative;
+    width: 100%;
+    bottom: 320px;
+    right: 15px;
+    height: 700px;
+    background-image: url(image/fon.png);
+    background-repeat: repeat;
+}
+.div4{
+    width: 90%;
+}
+.div5{
+    display: flex;
+    flex-direction : row
+    
+}
+.div6{
+    width: 90%;
+}
+.div7{
+    position: relative;
+    top: 40px;
+    display: flex;
+    flex-direction : row
+}
+.div8{
+    position: relative;
+    width: 100%;
+    right: 15px;
+    height: 700px;
+    background-image: url(image/fon.png);
+    background-repeat: repeat;
+}
+.div9{
+    position: relative;
+    width: 100%;
+    right: 15px;
+    height: 400px;
+    background-image: url(image/fon.png);
+    background-repeat: repeat;
+    text-align: center;
+    
+}
+.div10{
+    position: relative;
+    width: 100%;
+    right: 15px;
+    height: 900px;
+    background-image: url(image/fon.png);
+    background-repeat: repeat;
+    text-align: center;
+}
+.div11{
+    position: relative;
+    width: 100%;
+    right: 15px;
+    height: 900px;
+    background-image: url(image/fon.png);
+    background-repeat: repeat;
+    text-align: center;
+}
+.nav1{
+    margin-inline-end: 40%;
+}
+
+
+.video{
+    padding-left:25px;
+}
+.market1{
+    width: 305%;
+    position: relative;top: 100px;left: 350px;
+
+
+}
+.steam1{
+    width: 305%;
+    position: relative;top: 88px;left: 350px;
+}
+.str1{
+    position: relative; 
+    left: 1100px;
+    bottom: 250px;
+    width: 30%;
+    
+}
+.text1{
+    position: relative;
+    right: 150px;top: 200px;
+    display:flex;
+    justify-content : center;
+    
+}
+.str2{
+    width: 45%;
+    display:flex;
+    position:relative;
+    left: 140px;
+    bottom: 200px;
+    
+}
+.text2{
+    position: relative;
+    left: 450px;top: 100px;
+    display:flex;
+    justify-content: center;
+}
+.str3{
+    width: 50%;
+    display:flex;
+    position:relative;
+    left: 830px;
+    bottom: 170px;
+    
+   
+}
+.text3{
+    position: relative;
+    top: 150px;
+    left: 100px;
+
+}
+
+footer{
+    background-color: black;
+    padding: 10px 0;
+    color: white;
+}
+p{
+    font-size: 180%;
+}
+.c{
+    background-image: url(image/black.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1750px 900px;
+    position: relative;
+    bottom: 100px;
+    
+}
+.c1{
+    background-image: url(image/black.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1750px 680px;
+    position: relative;
+    bottom: 100px;
+    left: 10px ;
+    
+}
+.c2{
+    background-image: url(image/black.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1750px 700px;
+    position: relative;
+    bottom: 100px;
+    left: 10px;
+}
+.stick{
+    position: relative;
+    bottom: 400px;
+    width: 100%;
+}
+.stick1{
+    position: relative;
+    width: 100%;
+}
+.stick2{
+    position: relative;
+    bottom: 45px;
+    width: 110%;
+
+}
+.stick3{
+    position: relative;
+    width: 110%;
+}
+.stick4{
+    position: relative;
+    bottom: 25px;
+    width: 110%;
+}
+.battle{
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+    height: 1000px;
+    
+
+}
+.image5{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    position: relative;
+    top: 313px;
+}
+.syt{
+    width: 20%;
+    padding-left:25px;
+    padding-bottom: 25px;
+}
+.syt1{
+    width: 20%;
+    padding-left:25px;
+    padding-bottom: 25px;
+}
+.syt2{
+    width: 20%;
+    padding-left:25px;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
