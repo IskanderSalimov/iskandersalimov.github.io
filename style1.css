@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(image/fonsup.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
+header{
+	width: 100%;
+	background: #000000;
+	height:80px;
+}
+a{
+    text-decoration:none;
+}
+.shapka{
+    width: 6%;
+	padding-left: 445px;
+	padding-top: 13px;
+    
+
+}
+
+.home{
+    color: #8C8C8C;
+    font-family:"Sawarabi Gothic";
+    position: relative;bottom: 25px;
+    font-size:25px;
+}
+nav{
+    display: flex;
+    justify-content : space-around;
+    margin-inline-end:60%;
+    
+    
+}
+.c{
+    background-image: url(image/black.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1050px 1000px;
+    position: relative;
+    
+    
+}
