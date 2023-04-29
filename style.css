@@ -1,6 +1,17 @@
 
 *{
     margin: 0;
+    
+}
+.str1{
+    animation-name: anim1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+}
+.logo{
+    animation-name: anim2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
 }
 body{
     background-image: url(image/kin.jpg);
@@ -8,20 +19,35 @@ body{
     background-size:cover;
     
     
+    
 }
 .logo{
     width: 25%;
     
-    
 }
+.logo:hover{
+    transform: scale(1.050);
+    transition: 0.2s ease-out 0.00001s;
+	border: 0px;
+	outline: none;
+}
+@keyframes anim2{
+    0%{
+        transform:translate(200px);
+    }
+}
+
+
 header{
 	width: 100%;
 	background: #000000;
 	height:80px;
+    
 }
 
 a{
     text-decoration:none;
+    
 }
 .shapka{
     width: 6%;
@@ -36,6 +62,15 @@ a{
     font-family:"Sawarabi Gothic";
     position: relative;bottom: 50px;left: 550px;
     font-size:25px;
+    transition: 0.2s ease-out 0.0001s;
+	border: 0px;
+	outline: none;
+    
+}
+.home:hover{
+	transform: scale(1.1);
+    color: #f8f1f1;
+    text-shadow: 0 5px 10px #ffffff;
 }
 nav{
     display: flex;
@@ -59,6 +94,7 @@ nav{
     align-items: center;
     position: relative;top: 545px;left: 800px;
     width: 3%;
+    
 }
 .trailer{
     color: #532966;
@@ -67,7 +103,13 @@ nav{
     align-items: center;
     position: relative;top: 505px;
     font-size: 25px;
+    transition: 0.2s ease-out 0.0001s;
+	border: 0px;
+	outline: none;
 
+}
+.trailer:hover{
+	transform: scale(1.1);
 }
 .buy{
     color: #14FF00;
@@ -85,24 +127,32 @@ nav{
     display : flex;
     justify-content : space-around;
     margin-inline-end:60%;
+    transition: 0.2s ease-out 0.0001s;
+	border: 0px;
+	outline: none;
     
     
     
+}
+.market:hover{
+	transform: scale(1.1);
 }
 .steam{
     width: 210%;
     position: relative;top: 572px;left: 550px;
+    transition: 0.2s ease-out 0.0001s;
+	border: 0px;
+	outline: none;
 }
-.div1{
-    flex-wrap : wrap;
-
-    
+.steam:hover{
+	transform: scale(1.1);
 }
 .fon{
     position: relative;top: 845px;
     background-size: 100%;
 
 }
+
 .div{
     position: relative;
     width: 100%;
@@ -193,12 +243,28 @@ nav{
 .market1{
     width: 305%;
     position: relative;top: 100px;left: 350px;
+    transition: 0.2s ease-out 0.0001s;
+	border: 0px;
+	outline: none;
 
-
+}
+.market1:hover{
+	transform: scale(1.1);
 }
 .steam1{
     width: 305%;
     position: relative;top: 88px;left: 350px;
+    transition: 0.2s ease-out 0.0001s;
+	border: 0px;
+	outline: none;
+}
+.steam1:hover{
+	transform: scale(1.1);
+}
+@keyframes anim1 {
+    0%{
+        transform:translate(500px);
+    }
 }
 .str1{
     position: relative; 
