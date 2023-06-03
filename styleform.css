@@ -1,0 +1,23 @@
+
+body{
+        background-image: url(image/register.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+}
+
+p{ 
+    position: relative ;top: px;
+    font-size: 35px;
+    color: greenyellow;
+    text-align: center 
+
+}
+.c{
+        background-image: url(image/black.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1500px 1000px;
+        position: relative;
+        top: 500px;
+        
+}
