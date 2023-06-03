@@ -1,8 +1,245 @@
+/* телефоны вертикально */
+@media (max-width: 415px) {
+    .shapka{
+        width: 20%;
+        padding-top: 13px;
+        left: 10px;
 
-*{
-    margin: 0;
+        
     
+    }
+    header{
+        width: 100%;
+        background: #000000;
+        height:80px;
+        
+    }
+    .home{
+        color: #8C8C8C;
+        font-family:"Sawarabi Gothic";
+        position: relative;bottom: 50px;left: 150px;
+        font-size:14px;
+        transition: 0.2s ease-out 0.0001s;
+        border: 0px;
+        outline: none;
+        padding-left: 5px;
+        padding-top: 13px;
+        left: 130px;
+        
+    }
+    body{
+        background-image: url(image/kin.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+        
+        
+    }
+    .logo{
+        width: 60%;
+        
+        
+    }
+    .div{
+    position: relative;
+    width: 100%;
+    top: 770px;
+    height: 795px;
+    background-image: url(image/fon.png);
+    background-repeat: repeat;
+
+    }
+    .trailer{
+        color: #532966;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;top: 500px;
+        font-size: 25px;
+        transition: 0.2s ease-out 0.0001s;
+        border: 0px;
+        outline: none;
+    
+    }
+    .photo{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;top: 545px;left: 75px;
+        width: 60%;
+    
+    }
+    .buy{
+        color: #14FF00;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;top: 550px;
+        font-size: 50px;
+        font-weight: 900;
+    }
+    .market{
+        width: 230%;
+        position: relative;top: 580px;left: 50px;
+        display : flex;
+        justify-content : space-around;
+        margin-inline-start:0%;
+        transition: 0.2s ease-out 0.0001s;
+        border: 0px;
+        outline: none;
+    }
+    nav{
+        display: flex;
+        justify-content : space-around;
+        margin-inline-end:55%;
+        
+        
+    }
+    .nava{
+        display: flex;
+        justify-content : space-around;
+        margin-inline-end:55%;
+        
+        
+    }
+    .steam{
+        width: 210%;
+        position: relative;top: 572px;left: 130px;
+        transition: 0.2s ease-out 0.0001s;
+        border: 0px;
+        outline: none;
+    }
 }
+/* планшеты вертикально */
+@media (min-width: 415px) and(max-width: 821px){
+    .shapka{
+        width: 6%;
+        padding-left: 445px;
+        padding-top: 13px;
+        
+    
+    }
+}
+/* планшеты горизонтально */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+/* пк горизонтально */
+@media (min-width: 1199px){
+    .shapka{
+        width: 6%;
+        padding-left: 445px;
+        padding-top: 13px;
+    
+    
+    }
+
+    .home{
+        color: #8C8C8C;
+        font-family:"Sawarabi Gothic";
+        position: relative;bottom: 50px;left: 550px;
+        font-size:22px;
+        transition: 0.2s ease-out 0.0001s;
+        border: 0px;
+        outline: none;
+        
+    }
+    header{
+        width: 100%;
+        background: #000000;
+        height:80px;
+        
+    }
+    .logo{
+        width: 25%;
+        
+        
+    }
+    body{
+        background-image: url(image/kin.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        
+        
+        
+    }
+    .div{
+        position: relative;
+        width: 100%;
+        top: 770px;
+        height: 795px;
+        background-image: url(image/fon.png);
+        background-repeat: repeat;
+    
+    }
+    .trailer{
+        color: #532966;
+        position: relative;top: 505px;left: 850px;
+        font-size: 25px;
+        transition: 0.2s ease-out 0.0001s;
+        border: 0px;
+        outline: none;
+    
+    }
+    .photo{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;top: 600px;left: 800px;
+        width: 15%;
+    
+    }
+    .buy{
+        color: #14FF00;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;top: 550px;right: 15px;
+        font-size: 50px;
+        font-weight: 900;
+    }
+    .market{
+        width: 210%;
+        position: relative;top: 580px;left: 550px;
+        display : flex;
+        justify-content : space-around;
+        margin-inline-end:60%;
+        transition: 0.2s ease-out 0.0001s;
+        border: 0px;
+        outline: none;
+        
+        
+        
+    }
+    nav{
+        display: flex;
+        justify-content : space-around;
+        margin-inline-end:50%;
+        
+        
+    }
+    .nava{
+        display: flex;
+        justify-content : space-around;
+        margin-inline-end:60%;
+        
+        
+    }
+
+    .steam{
+        width: 210%;
+        position: relative;top: 572px;left: 550px;
+        transition: 0.2s ease-out 0.0001s;
+        border: 0px;
+        outline: none;
+    }
+
+}
+*{
+    margin: 0;    
+}
+
+
 .str1{
     animation-name: anim1;
     animation-duration: 2s;
@@ -13,18 +250,7 @@
     animation-duration: 2s;
     animation-timing-function: ease;
 }
-body{
-    background-image: url(image/kin.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-    
-    
-}
-.logo{
-    width: 25%;
-    
-}
+
 .logo:hover{
     transform: scale(1.050);
     transition: 0.2s ease-out 0.00001s;
@@ -38,56 +264,24 @@ body{
 }
 
 
-header{
-	width: 100%;
-	background: #000000;
-	height:80px;
-    
-}
+
+
 
 a{
     text-decoration:none;
-    
-}
-.shapka{
-    width: 6%;
-	padding-left: 445px;
-	padding-top: 13px;
-    
 
 }
 
-.home{
-    color: #8C8C8C;
-    font-family:"Sawarabi Gothic";
-    position: relative;bottom: 50px;left: 550px;
-    font-size:25px;
-    transition: 0.2s ease-out 0.0001s;
-	border: 0px;
-	outline: none;
-    
-}
+
+
 .home:hover{
 	transform: scale(1.1);
     color: #f8f1f1;
     text-shadow: 0 5px 10px #ffffff;
 }
-nav{
-    display: flex;
-    justify-content : space-around;
-    margin-inline-end:60%;
-    
-    
-}
 
-.photo{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;top: 600px;left: 800px;
-    width: 15%;
 
-}
+
 .ic{
     display: flex;
     justify-content: space-around;
@@ -96,54 +290,17 @@ nav{
     width: 3%;
     
 }
-.trailer{
-    color: #532966;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;top: 505px;
-    font-size: 25px;
-    transition: 0.2s ease-out 0.0001s;
-	border: 0px;
-	outline: none;
 
-}
 .trailer:hover{
 	transform: scale(1.1);
 }
-.buy{
-    color: #14FF00;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;top: 550px;right: 15px;
-    font-size: 50px;
-    font-weight: 900;
-}
 
-.market{
-    width: 210%;
-    position: relative;top: 580px;left: 550px;
-    display : flex;
-    justify-content : space-around;
-    margin-inline-end:60%;
-    transition: 0.2s ease-out 0.0001s;
-	border: 0px;
-	outline: none;
-    
-    
-    
-}
+
+
 .market:hover{
 	transform: scale(1.1);
 }
-.steam{
-    width: 210%;
-    position: relative;top: 572px;left: 550px;
-    transition: 0.2s ease-out 0.0001s;
-	border: 0px;
-	outline: none;
-}
+
 .steam:hover{
 	transform: scale(1.1);
 }
@@ -153,15 +310,7 @@ nav{
 
 }
 
-.div{
-    position: relative;
-    width: 100%;
-    top: 770px;
-    height: 795px;
-    background-image: url(image/fon.png);
-    background-repeat: repeat;
 
-}
 .div2{
     position: relative;
     width: 100%;
@@ -358,17 +507,17 @@ p{
 .stick2{
     position: relative;
     bottom: 45px;
-    width: 110%;
+    width: 100%;
 
 }
 .stick3{
     position: relative;
-    width: 110%;
+    width: 100%;
 }
 .stick4{
     position: relative;
     bottom: 25px;
-    width: 110%;
+    width: 100%;
 }
 .battle{
     width: 100%;
