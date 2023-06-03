@@ -30,7 +30,7 @@ a{
     color: #8C8C8C;
     font-family:"Sawarabi Gothic";
     position: relative;bottom: 50px;left: 550px;
-    font-size:25px;
+    font-size:22px;
     transition: 0.2s ease-out 0.0001s;
 	background-color:rgba(255, 255, 255, 0);
 	border: 0px;
@@ -53,7 +53,8 @@ a{
 nav{
     display: flex;
     justify-content : space-around;
-    margin-inline-end:60%;
+    margin-inline-end:50%;
     
     
 }
+
